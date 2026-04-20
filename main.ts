@@ -1,6 +1,6 @@
 let reading = 0
 basic.forever(function () {
-    reading = pins.analogReadPin(AnalogPin.P1)
+    reading = pins.analogReadPin(AnalogPin.P0)
     led.plotBarGraph(
     reading,
     1023
